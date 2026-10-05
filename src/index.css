@@ -4,8 +4,6 @@
    NEXUS GLOBAL THEME
 ========================================================= */
 
-@custom-variant dark (&:where(.dark, .dark *));
-
 :root {
   --nexus-bg: #f8fafc;
   --nexus-surface: #ffffff;
