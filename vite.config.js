@@ -7,20 +7,7 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
-
-  server: {
-    host: true,
-    port: 5173,
-    strictPort: false,
-  },
-
-  preview: {
-    host: true,
-    port: 4173,
-  },
-
   build: {
-    target: "es2020",
-    sourcemap: false,
+    outDir: "dist",
   },
 });
